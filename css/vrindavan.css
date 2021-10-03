@@ -1,0 +1,118 @@
+
+    /* Make the image fully responsive */
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .carousel-inner img {
+      width: 100%;
+      height: 500px;
+      align-items: center;
+      justify-content: center;
+    }
+    section p
+    {
+        margin-top: 20px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    header
+    {
+        display: flex;
+        justify-content: center;
+    }
+    header img
+    {
+        height: 80px;
+        width: 80px;
+    }
+    h1
+    {
+      text-align: center;
+      font-family: cursive;
+      font-size: 50px;
+      padding: 10px;
+    }
+    .container-1
+    {
+        width: 90%;
+        height: 400px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 50px ;
+        border-radius: 10px;
+        box-shadow: 0 0 5px grey;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    } 
+    .container-1 p
+    {
+      height: 110px;
+      overflow: hidden;
+    }
+    .button
+    {
+      display: none;
+    }
+    .text h2
+    {
+        font-size: 30px;
+        text-align: left;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 20px;
+    }
+    .text p
+    {
+      text-align: left;
+      margin-left: 20px;
+      padding: 15px;
+    }
+  
+    .container-1 img
+    {
+      height: 345px;
+      margin: 10px;
+      width: 300px;
+    }
+    hr
+    {
+      opacity: 0;
+    }
+    .visit a
+    {
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 30px;
+      background-color: goldenrod;
+      color: black;
+      font-size: 18px;
+      font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+      
+    }
+    .visit
+    {
+      justify-content: left;
+      text-align: left;
+      /* width: 200px; */
+      margin-left: 25px;
+      margin-top: 0;
+    }
+    .visit i
+    {
+      margin-right: 5px;
+    }
+    .visit a:hover
+    {
+      background-color: black;
+      color: cornsilk;
+    }
+    .text
+    {
+      /* position: absolute; */
+      width: fit-content;
+      height: fit-content;
+    }
+    
