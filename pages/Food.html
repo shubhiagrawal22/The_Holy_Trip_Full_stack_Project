@@ -17,16 +17,20 @@
       .image {
         background-image: url("../image/2peda.jpg");
         width: 100%;
-        height: 210px;
+        height: 200px;
         position: relative;
+        filter: blur(3px);
       }
 
-      .text {
-        color: white;
+      .text1 {
+        color: black;
         text-align: center;
         justify-content: center;
         font-size: 30px;
         padding: 50px;
+        position: absolute;
+        left: 40%;
+        top: 10px;
       }
 
       main p {
@@ -37,7 +41,15 @@
 
       .container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 30px;
+        width: 90%;
+        height: 400px;
+        margin-left: 70px;
+        border:  2px solid silver;
+        box-shadow: 0 0 5px grey;
+      
       }
 
       .text p {
@@ -45,26 +57,27 @@
         font-size: 18px;
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
       }
 
       .text h2 {
         color: black;
         text-align: left;
         margin-left: 14px;
+
       }
 
       .container img {
-        height: 300px;
-        margin-left: 10px;
+        height: 330px;
+        margin-left: 20px;
+        margin-top: 20px;
         width: 350px;
-        border: 2px solid black;
-        border-radius: 10px;
       }
     </style>
     <div class="image">
-      <div class="text">
-        <h1><u>Food</u></h1>
-      </div>
+    </div>
+    <div class="text1">
+      <h1><u>Food</u></h1>
     </div>
 
     <main>
