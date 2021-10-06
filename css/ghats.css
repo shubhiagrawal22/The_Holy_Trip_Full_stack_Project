@@ -9,6 +9,7 @@
       height: 500px;
       align-items: center;
       justify-content: center;
+      margin-top: 50px;
     }
     section p
     {
@@ -16,19 +17,21 @@
         line-height: 30px;
         padding: 20px;
     }
-    header
+    .header
     {
         display: flex;
-        
+        height: 60px;
         justify-content: center;
+        width: 100%;
+        
     }
-    header img
+    .header img
     {
         height: 80px;
         width: 80px;
-        justify-content: center;
+        margin-right: 5px;
     }
-    header h1
+    .header h1
     {
       text-align: center;
       font-family: pt serif;
