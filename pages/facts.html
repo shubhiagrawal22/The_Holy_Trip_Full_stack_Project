@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .image{
+        background: url(../image/pexels-photo-1122639.png);
+      }
+      header h1 {
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+        font-weight: 800;
+        font-family: pt serif;
+        text-transform: uppercase;
+        color: brown;
+      }
+
+      main p {
+        padding: 14px;
+        line-height: 30px;
+        /* color: cornsilk; */
+      }
+      #para{
+        color: cornsilk;
+      }
+
+      main h2 {
+        padding-top: 13px;
+        line-height: 30px;
+        margin-left: 16px;
+        font-size: 25px;
+      }
+
+      .fact2{
+        background-image: linear-gradient(to right,#ffe6f2, #ff99cc );
+        margin-top: 10px;
+        border-radius: 20px;
+        margin: 18px;
+      }
+
+      .fact1{
+        background-image: linear-gradient(to left, #cce0ff, #80b3ff );
+        margin-top: 10px;
+        border-radius: 20px;
+        margin: 18px;
+      }
+      footer {
+        width: 100%;
+        background-color: #26272b;
+      }
+      hr {
+        opacity: 0.2;
+      }
+      .section-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 0;
+      }
+      .article1 {
+        width: 40%;
+        padding: 10px;
+      }
+      .article1 h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .article1 p {
+        text-align: justify;
+        color: grey;
+        line-height: 22px;
+        margin-top: 10px;
+      }
+      .article2 h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .article2 ul {
+        list-style: none;
+        margin-top: 10px;
+      }
+      .article2 ul li {
+        padding: 5px;
+      }
+      .article2 ul li a {
+        text-decoration: none;
+        color: grey;
+      }
+      .article2 ul li a:hover {
+        color: goldenrod;
+      }
+      i {
+        color: grey;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .section-2 {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .section-2 p {
+        text-align: center;
+        color: grey;
+        line-height: 40px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .section-2 a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: red;
+        border-radius: 20px;
+        margin-left: 10px;
+      }
+      .section-2 a:hover {
+        background-color: goldenrod;
+      }
+      .section-3 {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+      }
+      .section-3 ul {
+        list-style: none;
+      }
+      .section-3 ul li {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: grey;
+        border-radius: 50%;
+        padding: 20px;
+        margin-right: 20px;
+      }
+      .section-3 ul li i {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+      }
+      .section-3 ul li:nth-child(1):hover {
+        background-color: #3b5999;
+      }
+      .section-3 ul li:nth-child(2):hover {
+        background-color: #55acee;
+      }
+      .section-3 ul li:nth-child(3):hover {
+        background-color: #dd4b39;
+      }
+      
+      
+      .section-3 ul li:nth-child(4):hover {
+        background-color: #ea4c89;
+      }
+      .section-4 {
+        display: flex;
+        background-color: black;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      .section-4 p {
+        color: grey;
+        position: relative;
+      }
+      .section-4 p::after {
+        display: block;
+        width: 0;
+        content: "";
+        height: 2px;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        transition: 0.5s;
+      }
+      .section-4 p:hover::after {
+        width: 100%;
+      }
+      .section-4 a {
+        text-decoration: none;
+        color: grey;
+      }
+      .section-4 a:hover {
+        color: goldenrod;
+      }
+      
+    
+
+
+
+
+    </style>
+   <div class="image">
+    <header>
+      <h1><u>Facts And Myths</u></h1>
+    </header>
+
+    <main>
+        <p id="para">
+          Mathura is one of the holy and historical cities of the Hindus.
+          Whenever Mathura is mentioned, it incorporates Vrindavan, Gokul &
+          Govardhan too. Puranic texts and epics have given vivid description of
+          this place which not only in name but topographically also has
+          undergone various changes. Mathura holds within itself many
+          interesting and fascinating facts.
+        </p>
+
+        <section>
+          <div class="fact1">
+            <h2>1. Secret of Nidhivan</h2>
+            <p>
+              The Nidhi Van still bears many secrets after many years of Hindu
+              mythology. Radha and Krishna are said to visit the Nidhi Van and
+              conduct their Raas Leela even today, soon after midnight. The
+              place where Gopiyaan used to play their Raas Leela was known as
+              Nidhi Van. The land is densely forested and covered with trees and
+              plants. Each tree in the Van is also thought to be a gopi, which
+              comes to life at night and returns to its original state in the
+              morning.
+            </p>
+          </div>
+
+          <div class="fact2">
+            <h2>2. The Secret of Rang Mahal</h2>
+            <p>
+              Radha and Krishna are reported to relax in the Rang Mahal, which
+              is close to the Nidhi Van, after performing the Raas Leela. Each
+              night, a bed is prepared for Krishna Radha. They have come here to
+              rest. People have noticed the bed being kept in a used state, and
+              some have discovered ornaments near the bed. People also leave
+              food on the floor, which is either devoured or strewn. Many people
+              have died in the forest while searching for the Raas Leela.
+            </p>
+          </div>
+
+          <div class="fact1">
+            <h2>3. Prem Temple</h2>
+            <p>
+              The Prem temple is one of Vrindavan's most loyal temples. The
+              temple has two storeys, one dedicated to Ram and Sita and the
+              other to the pious Hanuman. Krishna and Radha are honoured on the
+              second floor. The temple's interiors are adorned with expensive
+              stones, while the temple itself is constructed entirely of pure
+              sandalwood. The temple is 125 feet tall and has exquisite
+              sculptures and walls.
+            </p>
+          </div>
+
+          <div class="fact2">
+            <h2>5. Shri Krishna Janmbhoomi Temple</h2>
+            <p>
+              The mosque was built to spread the Islam among the hindus and
+              obstruct the hindus from visiting the Shri Krishna janambhoomi. it
+              was built by the mugal ruler Aurangzeb. The archaeological
+              evidence has been found that showed the attacks of muslim ruler in
+              Krishna janambhoomi. The evidence also showed that the great
+              grandson of Krishna has built the first temple at the prison of
+              Knas where the bhagwan Krishna was divinely born.
+            </p>
+          </div>
+        </section>
+        <div class="fact1">
+          <h2>6. The Govardhan Hill</h2>
+          <p>
+            The Govardhan Hill is the most prominent attraction in Mathura, as
+            it is said that Lora Krishna took the hill in one of his fingers
+            when the inhabitants of Mathura were threatened by the Rain God. The
+            contour of the Hill is similar to that of a peacock. The
+            Archaeological Museum is another well-known attraction that has
+            facts and information on Indian art and the history of Indian
+            mythology. Jama Masjid, Dwarkhandeesh Temple, and other popular
+            tourist attractions in Mathura attract thousands of visitors each
+            year.
+          </p>
+        </div>
+
+        <div class="fact2">
+          <h2>7. The Chandrodaya mandir</h2>
+          <p>
+            The Vrindavan Chandrodaya Temple, dubbed the world's highest temple,
+            has even outstripped the Burj Khalifa in terms of height. The temple
+            is 700 feet tall, and the cost of building was estimated to be over
+            Rs. 700 crores. This is the most expensive temple ever constructed,
+            with a total area of 26 acres. On the summit, there is a heritage
+            museum and a viewing tower with spectacular views of the Yamuna
+            River. The ISKCON organisation is building this temple, and they are
+            doing everything they can to make it the best in the world.
+          </p>
+        </div>
+    </main>
+    <footer>
+      <div class="section-1">
+          <div class="article1">
+              <h2>ABOUT</h2>
+              <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem commodi, minus reprehenderit 
+                  consequatur placeat est dicta vero possimus impedit enim facilis quis ipsum quae adipisci rerum!
+                   Neque rem asperiores recusandae laudantium nulla doloribus quas at praesentium, laboriosam
+                    corporis iusto ipsa enim nostrum molestiae dolores eligendi molestias eum rerum, numquam 
+                    quibusdam.
+                  </p>
+          </div>
+          <div class="article2">
+              <h2>Cities</h2>
+              <ul>
+                  <li><a href="#">Mathura</a></li>
+                  <li><a href="./vrindavan.html">Vrindavan</a></li>
+                  <li><a href="#">Goverdhan</a></li>
+                  <li><a href="#">Barsana</a></li>
+                  <li><a href="#">Gokul</a></li>
+                  <li><a href="#">Nandgaon</a></li>
+              </ul>
+          </div>
+          <div class="article2">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Places to visit</a></li>
+                  <li><a href="#">More to experience</a></li>
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Maps</a></li>
+              </ul>
+          </div>
+          <div class="article2">
+              <h2>Contact Us</h2>
+              <ul>
+                  <li><a href="#">
+                      <i class="fa fa-home"></i>GLA University, Mathura, India
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-envelope"></i>theholytrip@gmail.com
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-phone-square"></i>Mobile no:9729280731
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-facebook"></i>theholytrip
+                  </a></li>
+                  
+              </ul>
+          </div>
+      </div>
+      <hr width="100%" noshade/>
+      <div class="section-2">
+          <p>
+              Share your experience
+          </p>
+          <a href="./blog.html">Share!</a>
+      </div> 
+      <hr width="100%" noshade/>
+      <div class="section-3">
+          <ul>
+         <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li> <a href="#"><i class="fa fa-twitter"></i></a></liclass=>
+         <li> <a href="#"><i class="fa fa-google"></i></a></liclass=>
+         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+          
+      </ul>
+      </div>
+      <div class="section-4">
+          <p>
+              Copyright &copy; 2020 All Rights Reserved by 
+              <a href="#">Beta-labs</a> 
+          </p>
+      </div>
+  </footer>
+</div>
+  </body>
+</html>
