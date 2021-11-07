@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  
     <title>Food</title>
   </head>
   <body>
@@ -72,6 +74,156 @@
         margin-left: 20px;
         margin-top: 20px;
         width: 350px;
+      }
+      footer {
+        width: 100%;
+        background-color: #26272b;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+      hr {
+        opacity: 0.2;
+      }
+      .section-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 0;
+      }
+      .article1 {
+        width: 40%;
+        padding: 10px;
+      }
+      .article1 h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .article1 p {
+        text-align: justify;
+        color: grey;
+        line-height: 22px;
+        margin-top: 10px;
+      }
+      .article2 h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .article2 ul {
+        list-style: none;
+        margin-top: 10px;
+      }
+      .article2 ul li {
+        padding: 5px;
+      }
+      .article2 ul li a {
+        text-decoration: none;
+        color: grey;
+      }
+      .article2 ul li a:hover {
+        color: goldenrod;
+      }
+      i {
+        color: grey;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .section-2 {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .section-2 p {
+        text-align: center;
+        color: grey;
+        line-height: 40px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .section-2 a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: red;
+        border-radius: 20px;
+        margin-left: 10px;
+      }
+      .section-2 a:hover {
+        background-color: goldenrod;
+      }
+      .section-3 {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+      }
+      .section-3 ul {
+        list-style: none;
+      }
+      .section-3 ul li {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: grey;
+        border-radius: 50%;
+        padding: 20px;
+        margin-right: 20px;
+      }
+      .section-3 ul li i {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+      }
+      .section-3 ul li:nth-child(1):hover {
+        background-color: #3b5999;
+      }
+      .section-3 ul li:nth-child(2):hover {
+        background-color: #55acee;
+      }
+      .section-3 ul li:nth-child(3):hover {
+        background-color: #dd4b39;
+      }
+      
+      
+      .section-3 ul li:nth-child(4):hover {
+        background-color: #ea4c89;
+      }
+      .section-4 {
+        display: flex;
+        background-color: black;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      .section-4 p {
+        color: grey;
+        position: relative;
+      }
+      .section-4 p::after {
+        display: block;
+        width: 0;
+        content: "";
+        height: 2px;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        transition: 0.5s;
+      }
+      .section-4 p:hover::after {
+        width: 100%;
+      }
+      .section-4 a {
+        text-decoration: none;
+        color: grey;
+      }
+      .section-4 a:hover {
+        color: goldenrod;
       }
     </style>
     <div class="image">
@@ -168,5 +320,82 @@
         </div>
       </div>
     </main>
+    <footer>
+      <div class="section-1">
+          <div class="article1">
+              <h2>ABOUT</h2>
+              <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem commodi, minus reprehenderit 
+                  consequatur placeat est dicta vero possimus impedit enim facilis quis ipsum quae adipisci rerum!
+                   Neque rem asperiores recusandae laudantium nulla doloribus quas at praesentium, laboriosam
+                    corporis iusto ipsa enim nostrum molestiae dolores eligendi molestias eum rerum, numquam 
+                    quibusdam.
+                  </p>
+          </div>
+          <div class="article2">
+              <h2>Cities</h2>
+              <ul>
+                <li><a href="./Mathura.html">Mathura</a></li>
+                <li><a href="./vrindavan.html">Vrindavan</a></li>
+                <li><a href="./goverdhan.html">Goverdhan</a></li>
+                <li><a href="./barsana.html">Barsana</a></li>
+                <li><a href="./Gokul.html">Gokul</a></li>
+                <li><a href="./Nandgaon.html">Nandgaon</a></li>
+              </ul>
+          </div>
+          <div class="article2">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Places to visit</a></li>
+                  <li><a href="#">More to experience</a></li>
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Maps</a></li>
+              </ul>
+          </div>
+          <div class="article2">
+              <h2>Contact Us</h2>
+              <ul>
+                  <li><a href="#">
+                      <i class="fa fa-home"></i>GLA University, Mathura, India
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-envelope"></i>theholytrip@gmail.com
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-phone-square"></i>Mobile no:9729280731
+                  </a></li>
+                  <li><a href="#">
+                      <i class="fa fa-facebook"></i>theholytrip
+                  </a></li>
+                  
+              </ul>
+          </div>
+      </div>
+      <hr width="100%" noshade/>
+      <div class="section-2">
+          <p>
+              Share your experience
+          </p>
+          <a href="./videos_blog.html">Share!</a>
+      </div> 
+      <hr width="100%" noshade/>
+      <div class="section-3">
+          <ul>
+         <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li> <a href="#"><i class="fa fa-twitter"></i></a></liclass=>
+         <li> <a href="#"><i class="fa fa-google"></i></a></liclass=>
+         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+          
+      </ul>
+      </div>
+      <div class="section-4">
+          <p>
+              Copyright &copy; 2020 All Rights Reserved by 
+              <a href="#">Holy-trip</a> 
+          </p>
+      </div>
+  </footer>
   </body>
 </html>
