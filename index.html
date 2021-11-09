@@ -4,61 +4,320 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
     <title>The Holy Trip</title>
-    <style>
-        *
-        {
-           padding: 0;
-           margin: 0;
-           box-sizing: border-box; 
-           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        }
-        .container
-        {
-            display: flex;
-            width: 100%;
-            /* max-width: 1200px; */
-            justify-content: center;
-            align-items: center;
-        }
-        header
-        {
-            width: 100%;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            background-color: grey;
-            
-            color: white;
-        }
-        header img
-        {
-            height: 80px;
-            width: 80px;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-        header h1
-        {
-            text-align: center;
-            letter-spacing: 0.4px;
-            font-size: 30px;
-        }
-        header h2
-        {
-            font-size: 50px;
-            margin-left: 350px;
-            font-family: brush script MT;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
-    <div class="container">
+    
     <header>
         <img src="./assets/logo.png" alt="">
-        <h1>Welcome to</h1>
-        <h2>The Holytrip ...</h2>
+        <h1>Welcome to 
+        <span>THE HOLYTRIP</span></h1>
+        <p>
+          <a href="#"><i class="fa fa-search"></i></a>
+          <a href="#"><i class="fa fa-globe"></i></a>
+          <a href="#"><i class="fa fa-question-circle"></i></a>
+        </p>
     </header>
-</div>
+    <main>
+        <div class="container1">
+        
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/p1.png" alt="" width="1000" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/holi4.jpg" alt="" width="1000" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/p3.png" alt="" width="1000" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/p4.png" alt="" width="1000" height="500">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <p>
+          BRAJ also known as Brij, is a region of Utter Pradesh in India, comprising the twin cities of Mathura and 
+          Vrindavan. It is not just a sacred land where lord Krishna was born and performed his cosmic leelas, but also 
+          a place of divine reminisces. The entire region together is most aptly christened Brajbhumi meaning the land of 
+          Lord Krishna.Embodied in a culturally ethereal spirit of the Lord, Brajbhumi forms a pilgrimage halo with temple 
+          cities like Mathura, Vrindavan, Govardhan, Gokul, Barsana under its vibrant folds.
+        </p>
+    </div>
+
+    <div class="container2">
+      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active one">
+            
+            <div class="carousel-caption">
+              <div id="sec2-container">
+                <div id="left">Main content</div>
+                <div id="right">
+                    <div class="article" id="a1"></div>    
+                    <div class="article" id="a2"></div>
+                    <div class="article" id="a3"></div>
+                </div>
+            </div>
+            </div>   
+          </div>
+          <div class="carousel-item two">
+            
+            <div class="carousel-caption">
+              
+            </div>   
+          </div>
+          <div class="carousel-item three">
+            
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>   
+            </div>
+          <div class="carousel-item four">
+            
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div> -->
+      <h1>Popular cities of Mathura</h1>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active one">
+            <!-- <img src="./assets/ghat1.png" alt="Los Angeles" width="1100" height="500"> -->
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/ghat2.png" alt="Chicago" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/ghats3.png" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="container3">
+      <h1>Tourist destinations</h1>
+      <div class="places">
+        <div class="box">
+          <img src="./assets/ghat1.png" alt="">
+          <h3>GHATS</h3>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit sed minima eaque ducimus 
+              saepe nostrum, amet
+          </p>
+          <a href="./pages/ghats.html" target="_self">View</a>      
+      </div>
+        <div class="box">
+          <img src="./assets/kund1.png" alt="">
+          <h3>KUNDS</h3>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit sed minima eaque ducimus 
+              saepe nostrum, amet
+          </p>
+          <a href="./pages/kunds.html" target="_self">View</a>      
+      </div>
+        <div class="box">
+          <img src="./image/nand-bhavan-nandgaon.jpg" alt="">
+          <h3>NANDGAON</h3>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit sed minima eaque ducimus 
+              saepe nostrum, amet
+          </p>
+          <a href="./pages/Nandgaon.html" target="_self">View</a>      
+      </div>
+        <div class="box">
+          <img src="./assets/kund4.png" alt="">
+          <h3>GOKUL</h3>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit sed minima eaque ducimus 
+              saepe nostrum, amet
+          </p>
+          <a href="./pages/Gokul.html" target="_self">View</a>      
+      </div>
+      </div>
+    </div>
+    <div class="container4">
+        <h1>Explore</h1>
+        <div class="explore">
+         
+          <table>
+            <tr>
+              <td><a href="./pages/Heritage.html"><img src="./assets/heritage1.png" alt=""></a></td>
+              <td><a href="./pages/Festival.html"><img src="./assets/festival1.png" alt=""></a></td>
+              <td><a href="./pages/Food.html"><img src="./assets/food1.png" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><a href="./pages/Adventure.html"><img src="./assets/adventure1.png" alt=""></a></td>
+              <td><a href="./pages/Museum.html"><img src="./assets/museum1.png" alt=""></a></td>
+              <td><a href="./pages/facts.html"><img src="./assets/facts.jpg" alt=""></a></td>
+            </tr>
+          </table>
+          <!-- <div class="block">
+            <a href="./pages/Heritage.html"><img src="./assets/heritage1.png" alt=""></a>
+          </div>
+          <div class="block">
+            <a href="./pages/Festival.html"><img src="./assets/festival1.png" alt=""></a>
+          </div>
+          <div class="block">
+            <a href="./pages/Food.html"><img src="./assets/food1.png" alt=""></a>
+          </div>
+        
+          <div class="block">
+            <a href="./pages/Adventure.html"><img src="./assets/adventure1.png" alt=""></a>
+          </div>
+          <div class="block">
+            <a href="./pages/Museum.html"><img src="./assets/museum1.png" alt=""></a>
+          </div>
+          <div class="block">
+            <a href="./pages/facts.html"><img src="./assets/facts.jpg" alt=""></a>
+          </div>
+        </div> -->
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="section-1">
+            <div class="article1">
+                <h2>ABOUT</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem commodi, minus reprehenderit 
+                    consequatur placeat est dicta vero possimus impedit enim facilis quis ipsum quae adipisci rerum!
+                     Neque rem asperiores recusandae laudantium nulla doloribus quas at praesentium, laboriosam
+                      corporis iusto ipsa enim nostrum molestiae dolores eligendi molestias eum rerum, numquam 
+                      quibusdam.
+                    </p>
+            </div>
+            <div class="article2">
+                <h2>Cities</h2>
+                <ul>
+                  <li><a href="./Mathura.html">Mathura</a></li>
+                  <li><a href="./vrindavan.html">Vrindavan</a></li>
+                  <li><a href="./goverdhan.html">Goverdhan</a></li>
+                  <li><a href="./barsana.html">Barsana</a></li>
+                  <li><a href="./Gokul.html">Gokul</a></li>
+                  <li><a href="./Nandgaon.html">Nandgaon</a></li>
+                </ul>
+            </div>
+            <div class="article2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Places to visit</a></li>
+                    <li><a href="#">More to experience</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Maps</a></li>
+                </ul>
+            </div>
+            <div class="article2">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">
+                        <i class="fa fa-home"></i>GLA University, Mathura, India
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-envelope"></i>theholytrip@gmail.com
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-phone-square"></i>Mobile no:9729280731
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-facebook"></i>theholytrip
+                    </a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr width="100%" noshade/>
+        <div class="section-2">
+            <p>
+                Share your experience
+            </p>
+            <a href="./pages/videos_blog.html">Share!</a>
+        </div> 
+        <hr width="100%" noshade/>
+        <div class="section-3">
+            <ul>
+           <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li> <a href="#"><i class="fa fa-twitter"></i></a></liclass=>
+           <li> <a href="#"><i class="fa fa-google"></i></a></liclass=>
+           <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+            
+        </ul>
+        </div>
+        <div class="section-4">
+            <p>
+                Copyright &copy; 2020 All Rights Reserved by 
+                <a href="#">Holy-trip</a> 
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
