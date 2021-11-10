@@ -223,7 +223,7 @@ background-size: cover;
 .box
 {
     width: 280px;
-    margin-left: 45px;
+    margin-left: 5%;
     margin-right: 5px;
     padding: 15px;
     border-radius: 10px;
@@ -312,7 +312,7 @@ table
 {
     border-collapse: collapse;
     width: 1000px;
-    margin-left: 16%;
+    margin-left: 19%;
     border-spacing: 20px;
     
 }
